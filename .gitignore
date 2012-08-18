@@ -1,0 +1,12 @@
+# LIBS
+libs/
+
+# INTELLIJ
+*.iml
+.idea/
+
+# ANDROID
+*.class
+bin/
+gen/
+local.properties
