@@ -1,0 +1,47 @@
+
+loading.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+loading-frame
+  rotate: false
+  xy: 1, 59
+  size: 540, 60
+  orig: 540, 60
+  offset: 0, 0
+  index: -1
+loading-bar
+  rotate: false
+  xy: 1, 8
+  size: 501, 49
+  orig: 501, 49
+  offset: 0, 0
+  index: -1
+libgdx-logo
+  rotate: false
+  xy: 543, 51
+  size: 408, 68
+  orig: 408, 68
+  offset: 0, 0
+  index: -1
+loading-bar-hidden
+  rotate: false
+  xy: 953, 65
+  size: 33, 54
+  orig: 33, 54
+  offset: 0, 0
+  index: -1
+loading-frame-bg
+  rotate: false
+  xy: 1, 1
+  size: 5, 5
+  orig: 5, 5
+  offset: 0, 0
+  index: -1
+screen-bg
+  rotate: false
+  xy: 504, 52
+  size: 5, 5
+  orig: 5, 5
+  offset: 0, 0
+  index: -1
