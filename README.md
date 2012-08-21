@@ -4,7 +4,7 @@ libgdx-loading-screen
 What is this?
 -------------
 
-![800x480](https://raw.github.com/Matsemann/libgdx-loading-screen/master/Main/workfiles/800x480.png)
+![800x480](https://raw.github.com/Matsemann/libgdx-loading-screen/master/Main/workfiles/800x480.png)  
 This is an example of how to make a loading screen in libgdx. It features a loading bar which updates with the progress.  
 The bar can be animated and is interpolated to make the animation less 'jerky'.  
 [Video example] [1]  
