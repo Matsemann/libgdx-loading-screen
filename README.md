@@ -35,7 +35,7 @@ Or check this [video with no interpolation] [5]
 Links
 -----
 
-[Libgdx] [2]
+[Libgdx] [2]  
 [Vector logo] [3]
 
   [1]: http://www.youtube.com/watch?v=gpI2U_9jDak "YouTube"
