@@ -38,6 +38,10 @@ Links
 [Libgdx] [2]  
 [Vector logo] [3]
 
+
+
+![stats](http://matsemann.com/host/libgdx/statpixel.png)  
+
   [1]: http://www.youtube.com/watch?v=gpI2U_9jDak "YouTube"
   [2]: http://libgdx.badlogicgames.com/ "Libgdx home"
   [3]: http://bioboblog.blogspot.no/2012/08/vector-libgdx-logo.html
