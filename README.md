@@ -1,4 +1,4 @@
-libgdx-loading-screen
+libgdx loading screen
 =====================
 
 What is this?
