@@ -12,7 +12,6 @@ import com.badlogic.gdx.utils.viewport.Viewport;
 import com.matsemann.libgdxloadingscreen.LoadingBar;
 import com.matsemann.libgdxloadingscreen.SomeCoolGame;
 
-
 /**
  * @author Mats Svensson
  */
