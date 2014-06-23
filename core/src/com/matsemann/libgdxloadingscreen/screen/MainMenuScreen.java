@@ -1,7 +1,7 @@
 package com.matsemann.libgdxloadingscreen.screen;
 
 import com.badlogic.gdx.Gdx;
-import com.badlogic.gdx.graphics.GL10;
+import com.badlogic.gdx.graphics.GL20;
 import com.matsemann.libgdxloadingscreen.SomeCoolGame;
 
 /**
@@ -17,7 +17,7 @@ public class MainMenuScreen extends AbstractScreen {
     public void render(float delta) {
         // Draws a red background
         Gdx.gl.glClearColor(0.5f, 0.1f, 0.1f, 1);
-        Gdx.gl.glClear(GL10.GL_COLOR_BUFFER_BIT);
+        Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT);
     }
 
     @Override
