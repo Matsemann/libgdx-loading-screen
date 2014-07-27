@@ -1,6 +1,15 @@
 libgdx loading screen
 =====================
 
+This is a branch from a [pull request][7] created by [EyeOFMidas][8] ([his repo][9]).
+
+    Moved project to the standard Gradle environment: created a whole new project using the gdx-setup.jar, then copied over the source files and assets.
+    Fixed the PackSkins class to use TexturePacker static functions.
+    Rebuilt the .pack file to reflect new 1.2.0 atlas file changes
+    Changed some path locations to better reflect libGDX standards
+    Fixed several issues from the migration such as replacing deprecated functions with correct ones
+
+
 What is this?
 -------------
 
@@ -80,4 +89,7 @@ For more information, please refer to <http://unlicense.org/>
   [4]: https://github.com/Matsemann/libgdx-loading-screen/blob/master/Main/src/com/matsemann/libgdxloadingscreen/screen/LoadingScreen.java
   [5]: http://www.youtube.com/watch?v=pyZwkYVHEyI
   [6]: http://code.google.com/p/libgdx/wiki/AssetManager
+  [7]: https://github.com/Matsemann/libgdx-loading-screen/pull/3
+  [8]: https://github.com/EyeOfMidas
+  [9]: https://github.com/EyeOfMidas/libgdx-loading-screen
 
