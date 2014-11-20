@@ -1,7 +1,7 @@
 libgdx loading screen
 =====================
 
-Libgdx 1.4.1-branch contributed by [Deathsbreed][9].
+Libgdx 1.4.1-branch contributed by [Deathsbreed][7].
 
 What is this?
 -------------
@@ -82,5 +82,5 @@ For more information, please refer to <http://unlicense.org/>
   [4]: https://github.com/Matsemann/libgdx-loading-screen/blob/master/Main/src/com/matsemann/libgdxloadingscreen/screen/LoadingScreen.java
   [5]: http://www.youtube.com/watch?v=pyZwkYVHEyI
   [6]: http://code.google.com/p/libgdx/wiki/AssetManager
-  [7]: https://github.com/Matsemann/libgdx-loading-screen/tree/libgdx1.2.0-EyeOfMidas
+  [7]: https://github.com/Matsemann/libgdx-loading-screen/pull/4
 
