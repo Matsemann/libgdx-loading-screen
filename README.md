@@ -1,7 +1,9 @@
 libgdx loading screen
 =====================
 
-**OBS**: This code uses an older version of Libgdx. You may want to take a look at the [Libgdx 1.2.0 version with gradle][7]-branch contributed by EyeOfMidas.
+**OBS**: This code uses an older version of Libgdx. You may want to take a look at:
+* [Libgdx 1.2.0][7]-branch contributed by [EyeOfMidas][10].
+* [Libgdx 1.4.1][8]-branch contributed by [Deathsbreed][9].
 
 What is this?
 -------------
@@ -74,7 +76,6 @@ For more information, please refer to <http://unlicense.org/>
 
 
 
-![stats](http://matsemann.com/host/libgdx/statpixel.png)  
 
   [1]: http://www.youtube.com/watch?v=gpI2U_9jDak "YouTube"
   [2]: http://libgdx.badlogicgames.com/ "Libgdx home"
@@ -83,4 +84,7 @@ For more information, please refer to <http://unlicense.org/>
   [5]: http://www.youtube.com/watch?v=pyZwkYVHEyI
   [6]: http://code.google.com/p/libgdx/wiki/AssetManager
   [7]: https://github.com/Matsemann/libgdx-loading-screen/tree/libgdx1.2.0-EyeOfMidas
+  [8]: https://github.com/Matsemann/libgdx-loading-screen/tree/libgdx-1.4.1-Deathsbreed
+  [9}: https://github.com/Matsemann/libgdx-loading-screen/pull/4
+  [10]: https://github.com/Matsemann/libgdx-loading-screen/pull/3
 
