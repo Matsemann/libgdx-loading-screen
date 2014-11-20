@@ -1,7 +1,7 @@
 libgdx loading screen
 =====================
 
-**OBS**: This code uses an older version of Libgdx. You may want to take a look at the [Libgdx 1.2.0 version with gradle][7]-branch contributed by EyeOfMidas.
+Libgdx 1.4.1-branch contributed by [Deathsbreed][9].
 
 What is this?
 -------------
