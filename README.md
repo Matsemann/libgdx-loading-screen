@@ -85,6 +85,6 @@ For more information, please refer to <http://unlicense.org/>
   [6]: http://code.google.com/p/libgdx/wiki/AssetManager
   [7]: https://github.com/Matsemann/libgdx-loading-screen/tree/libgdx1.2.0-EyeOfMidas
   [8]: https://github.com/Matsemann/libgdx-loading-screen/tree/libgdx-1.4.1-Deathsbreed
-  [9}: https://github.com/Matsemann/libgdx-loading-screen/pull/4
+  [9]: https://github.com/Matsemann/libgdx-loading-screen/pull/4
   [10]: https://github.com/Matsemann/libgdx-loading-screen/pull/3
 
