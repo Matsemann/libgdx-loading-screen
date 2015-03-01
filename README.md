@@ -9,9 +9,14 @@ What is this?
 -------------
 
 ![800x480](https://raw.github.com/Matsemann/libgdx-loading-screen/master/Main/workfiles/800x480.png)  
-This is an example of how to make a loading screen in libgdx. It features a loading bar which updates with the progress.  
-The bar can be animated and is interpolated to make the progress less 'jerky'.  
+This is an example of how to make a loading screen in libgdx. It loads the game resources asynchronously in the background, e.g. non-blocking, which makes it possible to have an animated loading bar showing the progress and other responsive features.
+The bar is interpolated to make the progress less 'jerky'.  
 [Video example] [1]
+
+Featured in book
+----------------
+
+This repository's code is used in the book [LibGDX Game Development Essentials][11] by Juwal Bose for Packt Publishing. 
 
 How does it work?
 -----------------
@@ -86,5 +91,6 @@ For more information, please refer to <http://unlicense.org/>
   [7]: https://github.com/Matsemann/libgdx-loading-screen/tree/libgdx1.2.0-EyeOfMidas
   [8]: https://github.com/Matsemann/libgdx-loading-screen/tree/libgdx-1.4.1-Deathsbreed
   [9]: https://github.com/Matsemann/libgdx-loading-screen/pull/4
-  [10]: https://github.com/Matsemann/libgdx-loading-screen/pull/3
+  [10]: https://github.com/Matsemann/libgdx-loading-screen/pull/
+  [11]: https://www.packtpub.com/game-development/libgdx-game-development-essentials
 
