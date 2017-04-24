@@ -1,13 +1,14 @@
 package com.matsemann.libgdxloadingscreen.screen;
 
 import com.badlogic.gdx.Gdx;
-import com.badlogic.gdx.graphics.GL10;
+import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.graphics.g2d.Animation;
 import com.badlogic.gdx.graphics.g2d.TextureAtlas;
 import com.badlogic.gdx.math.Interpolation;
 import com.badlogic.gdx.scenes.scene2d.Actor;
 import com.badlogic.gdx.scenes.scene2d.Stage;
 import com.badlogic.gdx.scenes.scene2d.ui.Image;
+import com.badlogic.gdx.utils.viewport.Viewport;
 import com.matsemann.libgdxloadingscreen.LoadingBar;
 import com.matsemann.libgdxloadingscreen.SomeCoolGame;
 
@@ -23,6 +24,7 @@ public class LoadingScreen extends AbstractScreen {
     private Image loadingBarHidden;
     private Image screenBg;
     private Image loadingBg;
+    private Viewport viewPort;
 
     private float startX, endX;
     private float percent;
@@ -55,7 +57,7 @@ public class LoadingScreen extends AbstractScreen {
 
         // Add the loading bar animation
         Animation anim = new Animation(0.05f, atlas.findRegions("loading-bar-anim") );
-        anim.setPlayMode(Animation.LOOP_REVERSED);
+        anim.setPlayMode(Animation.PlayMode.LOOP_REVERSED);
         loadingBar = new LoadingBar(anim);
 
         // Or if you only need a static bar, you can do
@@ -80,7 +82,8 @@ public class LoadingScreen extends AbstractScreen {
         // Set our screen to always be XXX x 480 in size
         width = 480 * width / height;
         height = 480;
-        stage.setViewport(width , height, false);
+        viewPort.update(width , height, false);
+        stage.setViewport(viewPort);
 
         // Make the background fill the screen
         screenBg.setSize(width, height);
@@ -113,7 +116,7 @@ public class LoadingScreen extends AbstractScreen {
     @Override
     public void render(float delta) {
         // Clear the screen
-        Gdx.gl.glClear(GL10.GL_COLOR_BUFFER_BIT);
+        Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT);
 
         if (game.manager.update()) { // Load some, will return true if done loading
             if (Gdx.input.isTouched()) { // If the screen is touched after the game is done loading, go to the main menu screen
