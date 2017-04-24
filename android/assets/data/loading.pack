@@ -1,0 +1,90 @@
+
+loading.png
+size: 577,496
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+libgdx-logo
+  rotate: false
+  xy: 2, 9
+  size: 408, 68
+  orig: 408, 68
+  offset: 0, 0
+  index: -1
+loading-bar-anim
+  rotate: false
+  xy: 2, 283
+  size: 501, 49
+  orig: 501, 49
+  offset: 0, 0
+  index: 1
+loading-bar-anim
+  rotate: false
+  xy: 2, 232
+  size: 501, 49
+  orig: 501, 49
+  offset: 0, 0
+  index: 2
+loading-bar-anim
+  rotate: false
+  xy: 2, 181
+  size: 501, 49
+  orig: 501, 49
+  offset: 0, 0
+  index: 3
+loading-bar-anim
+  rotate: false
+  xy: 2, 130
+  size: 501, 49
+  orig: 501, 49
+  offset: 0, 0
+  index: 4
+loading-bar-anim
+  rotate: false
+  xy: 2, 79
+  size: 501, 49
+  orig: 501, 49
+  offset: 0, 0
+  index: 5
+loading-bar-hidden
+  rotate: false
+  xy: 544, 442
+  size: 33, 54
+  orig: 33, 54
+  offset: 0, 0
+  index: -1
+loading-bar1
+  rotate: false
+  xy: 2, 385
+  size: 501, 49
+  orig: 501, 49
+  offset: 0, 0
+  index: -1
+loading-bar2
+  rotate: false
+  xy: 2, 334
+  size: 501, 49
+  orig: 501, 49
+  offset: 0, 0
+  index: -1
+loading-frame
+  rotate: false
+  xy: 2, 436
+  size: 540, 60
+  orig: 540, 60
+  offset: 0, 0
+  index: -1
+loading-frame-bg
+  rotate: false
+  xy: 505, 429
+  size: 5, 5
+  orig: 5, 5
+  offset: 0, 0
+  index: -1
+screen-bg
+  rotate: false
+  xy: 2, 2
+  size: 5, 5
+  orig: 5, 5
+  offset: 0, 0
+  index: -1
