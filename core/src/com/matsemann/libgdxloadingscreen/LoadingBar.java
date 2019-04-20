@@ -10,11 +10,11 @@ import com.badlogic.gdx.scenes.scene2d.Actor;
  */
 public class LoadingBar extends Actor {
 
-    Animation animation;
+    Animation<? extends TextureRegion> animation;
     TextureRegion reg;
     float stateTime;
 
-    public LoadingBar(Animation animation) {
+    public LoadingBar(Animation<? extends TextureRegion> animation) {
         this.animation = animation;
         reg = animation.getKeyFrame(0);
     }
