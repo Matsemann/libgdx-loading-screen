@@ -5,6 +5,7 @@ import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.graphics.g2d.Animation;
 import com.badlogic.gdx.graphics.g2d.Animation.PlayMode;
 import com.badlogic.gdx.graphics.g2d.TextureAtlas;
+import com.badlogic.gdx.graphics.g2d.TextureRegion;
 import com.badlogic.gdx.math.Interpolation;
 import com.badlogic.gdx.scenes.scene2d.Actor;
 import com.badlogic.gdx.scenes.scene2d.Stage;
@@ -56,7 +57,9 @@ public class LoadingScreen extends AbstractScreen {
         loadingBg = new Image(atlas.findRegion("loading-frame-bg"));
 
         // Add the loading bar animation
-        Animation anim = new Animation(0.05f, atlas.findRegions("loading-bar-anim") );
+        Animation<TextureRegion> anim = new Animation<>(
+	    0.05f, atlas.findRegions("loading-bar-anim")
+	);
         anim.setPlayMode(PlayMode.LOOP_REVERSED);
         loadingBar = new LoadingBar(anim);
 
@@ -79,17 +82,8 @@ public class LoadingScreen extends AbstractScreen {
 
     @Override
     public void resize(int width, int height) {
-        // Set our screen to always be XXX x 480 in size
-        width = 480 * width / height;
-        height = 480;
-        stage.getViewport().update(width , height, false);
-
         // Make the background fill the screen
-        screenBg.setSize(width, height);
-
-        // Place the logo in the middle of the screen and 100 px up
-        logo.setX((width - logo.getWidth()) / 2);
-        logo.setY((height - logo.getHeight()) / 2 + 100);
+	screenBg.setSize(stage.getWidth(), stage.getHeight());
 
         // Place the loading frame in the middle of the screen
         loadingFrame.setX((stage.getWidth() - loadingFrame.getWidth()) / 2);
@@ -98,6 +92,10 @@ public class LoadingScreen extends AbstractScreen {
         // Place the loading bar at the same spot as the frame, adjusted a few px
         loadingBar.setX(loadingFrame.getX() + 15);
         loadingBar.setY(loadingFrame.getY() + 5);
+
+	// Place the logo in the middle of the screen
+        logo.setX((stage.getWidth() - logo.getWidth()) / 2);
+        logo.setY(loadingFrame.getY() + loadingFrame.getHeight() + 15);
 
         // Place the image that will hide the bar on top of the bar, adjusted a few px
         loadingBarHidden.setX(loadingBar.getX() + 35);
