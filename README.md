@@ -4,6 +4,7 @@ libgdx loading screen
 **OBS**: This code uses an older version of Libgdx. You may want to take a look at:
 * [Libgdx 1.2.0][7]-branch contributed by [EyeOfMidas][10].
 * [Libgdx 1.4.1][8]-branch contributed by [Deathsbreed][9].
+* [Libgdx 1.9.9][12]-branch contributed by [LaurenceWarne][13].
 
 What is this?
 -------------
@@ -91,6 +92,7 @@ For more information, please refer to <http://unlicense.org/>
   [7]: https://github.com/Matsemann/libgdx-loading-screen/tree/libgdx1.2.0-EyeOfMidas
   [8]: https://github.com/Matsemann/libgdx-loading-screen/tree/libgdx-1.4.1-Deathsbreed
   [9]: https://github.com/Matsemann/libgdx-loading-screen/pull/4
-  [10]: https://github.com/Matsemann/libgdx-loading-screen/pull/
+  [10]: https://github.com/Matsemann/libgdx-loading-screen/pull/3
   [11]: https://www.packtpub.com/game-development/libgdx-game-development-essentials
-
+  [12]: https://github.com/Matsemann/libgdx-loading-screen/tree/libgdx-1.9.9-LaurenceWarne
+  [13]: https://github.com/Matsemann/libgdx-loading-screen/pull/5
